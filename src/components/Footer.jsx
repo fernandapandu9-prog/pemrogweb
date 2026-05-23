@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
             <p className="text-xl font-extrabold text-white mb-3">
-              Rumah<span className="text-amber-400">Ku.</span>
+              Omah<span className="text-amber-400">Ku.</span>
             </p>
             <p className="text-sm leading-relaxed mb-4">
               Platform properti terpercaya untuk jual, beli, dan sewa di seluruh Indonesia.

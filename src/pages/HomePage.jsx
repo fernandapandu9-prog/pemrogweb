@@ -22,7 +22,7 @@ export default function HomePage() {
   const [tabMode, setTabMode] = useState('Semua');
   const [hargaMin, setHargaMin] = useState('');
   const [hargaMax, setHargaMax] = useState('');
-  const LIMIT = 6;
+  const LIMIT = 10;
 
   const fetchData = async (reset = false) => {
     try {

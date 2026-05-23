@@ -47,9 +47,9 @@ export default function PropertyCard({ property }) {
           📍 {property.lokasi}
         </p>
         <div className="flex gap-3 pt-3 border-t border-gray-100 text-xs text-gray-600 font-medium flex-wrap">
-          {property.kamarTidur && <span>🛏 {property.kamarTidur} KT</span>}
-          {property.kamarMandi && <span>🚿 {property.kamarMandi} KM</span>}
-          {property.luas && <span>📐 {property.luas} m²</span>}
+          {property.kamarTidur && <span> {property.kamarTidur} KT</span>}
+          {property.kamarMandi && <span> {property.kamarMandi} KM</span>}
+          {property.luas && <span> {property.luas} m²</span>}
           <span className="ml-auto bg-blue-50 text-blue-700 px-2 py-0.5 rounded-full">{property.tipe}</span>
         </div>
       </Link>
